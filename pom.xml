@@ -73,7 +73,7 @@
        
     <profiles> 
   <profile> 
-  <id>smoke</id> 
+  <id>Smoke</id> 
   <build>
    <plugins> 
    <plugin> 
@@ -82,7 +82,7 @@
      <version>3.0.0</version> 
      <configuration> 
      <suiteXmlFiles>
-      <suiteXmlFile>testng_GroupsSmoke.xml</suiteXmlFile>
+      <suiteXmlFile>testng_Smoke.xml</suiteXmlFile>
        </suiteXmlFiles> 
        </configuration> 
        </plugin> 
@@ -100,7 +100,7 @@
      <version>3.0.0</version> 
      <configuration> 
      <suiteXmlFiles>
-      <suiteXmlFile>testng_Batch.xml</suiteXmlFile>
+      <suiteXmlFile>testng_BatchExecution.xml</suiteXmlFile>
        </suiteXmlFiles> 
        </configuration> 
        </plugin> 
