@@ -2,6 +2,7 @@ package vTigerContancts.test;
 
 import java.io.IOException;
 
+import org.apache.poi.sl.usermodel.GroupShape;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,7 +27,7 @@ import vTiger.ObjectRepository.LoginPage;
 public class CreateContanctsWithOrganTest extends BaseClass {
 
 
-	@Test
+	@Test(groups="Regressionsuit")
 	public void Contact() throws IOException, InterruptedException {
 	
 		//Get the data from excell sheet
