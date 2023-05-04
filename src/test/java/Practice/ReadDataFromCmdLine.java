@@ -2,7 +2,7 @@ package Practice;
 
 import org.testng.annotations.Test;
 
-public class ReadDataFromCmdLine {
+public class ReadDataFromCmdLine{
 	@Test
 	public void readData()
 	{
